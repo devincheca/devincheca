@@ -33,7 +33,7 @@
   }
   #particles-js {
     z-index: -1;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
   }
@@ -64,7 +64,7 @@
       <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
     </div>
     <div class="w3-content w3-padding">
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Education</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education')"><h3><span class="w3-opacity-min w3-padding" id="educationSpan">\/ </span>Education</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="education" style="display: none">
       <h4>University of Massachusetts Dartmouth; Dartmouth, MA<span class="w3-right">December 2020</span></h4>
       <p>Master of Science, Computer Science</p>
@@ -85,7 +85,7 @@
       </p>
     </div>
     -->
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#work')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Work Experience</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#work')"><h3><span class="w3-opacity-min w3-padding" id="experienceSpan">\/ </span>Work Experience</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="work" style="display: none">
         <h4>EvolveSPM; Torrance, CA<span class="w3-right">Summer 2018 &#45 Present</span></h4>
       <h5>Full Stack Web Developer</h5>
@@ -142,7 +142,7 @@
       </ul>
       </p>
     </div>
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#leadership')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Leadership</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#leadership')"><h3><span class="w3-opacity-min w3-padding" id="leadershipSpan">\/ </span>Leadership</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="leadership" style="display: none">
       <h4>Boy Scouts of America; Torrance, CA<span class="w3-right">2006-2017</span></h4>
       <h5>Assistant Scoutmaster &#45 Eagle Scout</h5>
@@ -162,7 +162,7 @@
       </ul>
       </p>
     </div>
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#achievements')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Achievements</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#achievements')"><h3><span class="w3-opacity-min w3-padding" id="achievementSpan">\/ </span>Achievements</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="achievements" style="display: none">
       <p>
       <ul>
@@ -173,19 +173,36 @@
       </ul>
       </p>
     </div>
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#computer')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Computer Skills</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#computer')"><h3><span class="w3-opacity-min w3-padding" id="computerSpan">\/ </span>Computer Skills</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="computer" style="display: none">
-      <h3>Computer Skills</h3>
       <p>
         <div>
-          Proficient with C / C++, AWS, Elasticsearch, and Go
+          Proficient with C / C++, AWS, DigitalOcean, Elasticsearch, and Go
         </div>
         <div>
           Highly proficient with JavaScript / nodejs, TypeScript, React, Angular / NativeScript, and SQL
         </div>
       </p>
+      <h3>Books I Enjoy</h3>
+      <p>
+        <div>
+          Clean Code by Robert C. Martin
+        </div>
+        <div>
+          Clean Architecture by Robert C. Martin
+        </div>
+        <div>
+          Effective C++ by Scott Meyers
+        </div>
+        <div>
+          Practical Vim by Drew Neil
+        </div>
+        <div>
+          Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+        </div>
+      </p>
     </div>
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#transcripts')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Misc</h3></div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#transcripts')"><h3><span class="w3-opacity-min w3-padding" id="miscSpan">\/ </span>Misc</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="transcripts" style="display: none">
     <h3>Transcripts</h3>
     <p>

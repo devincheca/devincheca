@@ -9,13 +9,4 @@ function toggleShow(elementId) {
     div.className = 'w3-pale-yellow w3-padding';
   }
 }
-function toggleArrow(spanId) {
-  const span = document.getElementById(spanId);
-  if (span.innerHTML === '\\/ ') {
-    span.innerHTML = '/\\ ';
-  }
-  else {
-    span.innerHTML = '\\/ ';
-  }
-}
 

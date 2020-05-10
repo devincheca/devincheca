@@ -1,0 +1,248 @@
+<html>
+  <head>
+  <title>
+  Devin Checa
+  </title>
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <meta name="keywords" content="Devin Checa, Web Design, Musician, Actuarial Statistics">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--
+  <link rel="stylesheet" href="animate.css">
+  -->
+  <link rel="icon" type="image/png" href="devinchecaLogo.png">
+  <script src="https://www.w3schools.com/lib/w3.js"></script> 
+  <script src="helpers.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <style>
+  a { text-decoration: none; }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("bgImg.jpg");
+    background-attachment: fixed;                                          
+    min-height: 85%;
+  }
+  .w3-pale-yellow {
+    background-color: #AEB9E4!important;
+  }
+  #particles-js {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+  </head>
+  <body class="bgimg w3-pale-blue" style="max-width:100%; margin: auto;">
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
+    <h1 class="w3-text-black w3-center">Devin Checa</h1>
+    <h3 class="w3-center w3-white w3-opacity-min w3-round">devincheca@gmail.com &nbsp
+      <a href="https://www.linkedin.com/in/devin-checa-77494860" target="_blank">
+        <i class="fa fa-linkedin-square w3-hover-opacity"></i>
+      </a> &nbsp
+      <a href="https://github.com/devincheca" target="_blank">
+        <i class="fa fa-github-square w3-hover-opacity"></i>
+      </a> &nbsp
+      <a href="https://soundcloud.com/devin-checa" target="_blank">
+        <i class="fa fa-soundcloud w3-hover-opacity"></i>
+      </a> &nbsp
+      <a href="https://localbz.co" target="_blank">
+        <button class="w3-btn w3-ripple">Localbz.co</button>
+      </a>
+    </h3>
+    <div class="w3-text-black w3-margin w3-padding" style="font-weight: bold;">Samples:</div>
+    <div class="w3-row">
+      <div class="w3-text-white w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-round w3-large"><a href="https://spot-pro.com" target="_blank">Spot Tracker Progressive Web App with ElasticSearch</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/TM" target="_blank">Automated Toastmasters Secretary Minutes Logger</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/hbs" target="_blank">Barber Shop website with an Image Gallery and Modals</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://todo-manager.com" target="_blank">Todo-Manager with Twilio Login</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/videoplayer" target="_blank">Interactive video player made with ReactJS.</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col m6 w3-light-blue w3-border w3-large w3-round"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
+    </div>
+    <div class="w3-content w3-padding">
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education'); toggleArrow('educationSpan');"><h3><span class="w3-opacity-min w3-padding" id="educationSpan">\/ </span>Education</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="education" style="display: none">
+      <h4>University of Massachusetts Dartmouth; Dartmouth, MA<span class="w3-right">December 2020</span></h4>
+      <p>Master of Science, Computer Science</p>
+      <h4>California State University Dominguez Hills<span class="w3-right">December 2016</span></h4>
+      <p>Bachelor of Science, Mathematics</p>
+      <h4>Loyola Marymount University<span class="w3-right">2012-2014</span></h4>
+      <p>Bachelor of Science, Economics (in progress)</p>
+    </div>
+    <!--
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#overview')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Overview and Qualifications Summary</h3></div>
+    <div class="w3-white w3-padding" id="overview" style="display: none">
+      <p>
+      <ul>
+        <li>Adaptable personality and mindset for problem solving</li>
+        <li>Full of ideas with strong critical thinking abilities</li>
+        <li>Will to participate inside and outside of the workplace</li>
+      </ul>
+      </p>
+    </div>
+    -->
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#work'); toggleArrow('experienceSpan');"><h3><span class="w3-opacity-min w3-padding" id="experienceSpan">\/ </span>Work Experience</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="work" style="display: none">
+        <h4>EvolveSPM; Torrance, CA<span class="w3-right">Summer 2018 &#45 Present</span></h4>
+      <h5>Full Stack Web Developer</h5>
+      <p>
+      <ul>
+        <li>
+          Developed and Published mobile broker chat and portal app with PWA/TWA standard to App Store and Play Store
+        </li>
+        <li>
+          Built interfaces using Bootstrap, jQuery, Angular, React, and NativeScript for APIs and other services
+        </li>
+        <li>
+          Integrated various services for reoccurring jobs and trigger events using ColdFusion and SQL Server
+        </li>
+        <li>
+          Setup AES encryption storage with cipher block chain technology in accordance with OWASP
+        </li>
+      </ul>
+      </p>
+        <h4>Robert Half; El Segundo, CA<span class="w3-right">Spring & Summer 2017</span></h4>
+      <h5>Workforce Data Analyst</h5>
+      <p>
+      <ul>
+        <li>Created data visualization tools to assess market conditions for a nationwide staffing network</li>
+        <li>Streamlined reporting to accelerate decision making in an evolving market</li>
+        <li>Used moving averages along with technical analysis to spot trends over time</li>
+      </ul>
+      </p>
+      <h4>Localbz.co; Lawndale, CA<span class="w3-right">Summer 2016 &#45 Present</span></h4>
+      <h5>Web Consultant</h5>
+      <p>
+      <ul>
+        <li>Developed mobile friendly web applications</li>
+        <li>Adapted web technologies like HTML, CSS, php, and JavaScript for small business websites</li>
+        <li>Ensured dynamic and responsive design to keep pace with new web technologies</li>
+      </ul>
+      </p>
+      <h4>Northrop Grumman Aerospace Systems; Redondo Beach, CA<span class="w3-right">Summer 2015</span></h4>
+      <h5>Pricing Intern</h5>
+      <p>
+      <ul>
+        <li>Aided in pricing a government contract by developing macros to help automate processes</li>
+        <li>Supported risk assessment by comparing performance data to prior estimates</li>
+        <li>Priced estimates for negotiated contracts, follow-on orders, etc. in accordance with the FAR</li>
+      </ul>
+      </p>
+      <h4>Forest Lawn Scout Reservation; Cedar Glen, CA<span class="w3-right">Summer 2012</span></h4>
+      <h5>Golf Director</h5>
+      <p>
+      <ul>
+        <li>Led golf merit badge program by teaching golf, its rules, scoring, and history to boys ages 11-18</li>
+        <li>Managed golf course for peak performance, beauty, and safety</li>
+        <li>Assisted in managing camp: campfires, games, troop competitions, and more</li>
+      </ul>
+      </p>
+    </div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#leadership'); toggleArrow('leadershipSpan');"><h3><span class="w3-opacity-min w3-padding" id="leadershipSpan">\/ </span>Leadership</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="leadership" style="display: none">
+      <h4>Boy Scouts of America; Torrance, CA<span class="w3-right">2006-2017</span></h4>
+      <h5>Assistant Scoutmaster &#45 Eagle Scout</h5>
+      <p>
+      <ul>
+        <li>Scouting for Food &#45 collected canned goods for distribution to underprivileged families</li>
+        <li>Pacific Crest Trail Association trail building &#45 built, restored, and improved mountain trail</li>
+      </ul>
+      </p>
+      <h4>Toastmasters International; Marina Del Rey, Torrance, Carson, & Los Angeles, CA</h4>
+      <p>
+      <ul>
+        <li>Served as President of Junior Gavel Toastmasters Club<span class="w3-right">2010-2011</span></li>
+        <li>Served as Vice President of Education for Toastmasters Club<span class="w3-right">2013-2014</span></li>
+        <li>Served as Secretary for DreamBuilders Toastmasters Club (Competent Communicator)<span class="w3-right">2017-2018</span></li>
+        <li>Currently serving as Vice President of Public Relations for DreamBuilders Toastmasters Club<span class="w3-right">2018-2019</span></li>
+      </ul>
+      </p>
+    </div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#achievements'); toggleArrow('achievementSpan');"><h3><span class="w3-opacity-min w3-padding" id="achievementSpan">\/ </span>Achievements</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="achievements" style="display: none">
+      <p>
+      <ul>
+        <li>Second Place in Area D2 Toastmasters Table Topics Contest<span class="w3-right">Spring 2020</span></li>
+        <li>Second Place in Area A5 Toastmasters International Speech Contest<span class="w3-right">Spring 2018</span></li>
+        <li>Completed Two Actuarial Exams (Probability & Financial Mathematics)<span class="w3-right">Nov 2013 & Aug 2014</span></li>
+        <li>Achieved the rank of Eagle Scout<span class="w3-right">October 2010</span></li>
+      </ul>
+      </p>
+    </div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#computer'); toggleArrow('computerSpan');"><h3><span class="w3-opacity-min w3-padding" id="computerSpan">\/ </span>Computer Skills</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="computer" style="display: none">
+      <p>
+        <div>
+          Highly proficient with JavaScript / nodejs, TypeScript, React, Angular / NativeScript, SQL, and ssh
+        </div>
+        <div>
+          Proficient with C / C++, AWS, DigitalOcean, nginx, IIS, batch scripting (.sh, .bat), Elasticsearch, and Go
+        </div>
+      </p>
+      <h3>Books I Enjoy</h3>
+      <p>
+        <div>
+          Clean Code by Robert C. Martin
+        </div>
+        <div>
+          Clean Architecture by Robert C. Martin
+        </div>
+        <div>
+          Effective C++ by Scott Meyers
+        </div>
+        <div>
+          Practical Vim by Drew Neil
+        </div>
+        <div>
+          Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+        </div>
+      </p>
+    </div>
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#transcripts'); toggleArrow('miscSpan');"><h3><span class="w3-opacity-min w3-padding" id="miscSpan">\/ </span>Misc</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="transcripts" style="display: none">
+    <h3>Transcripts</h3>
+    <p>
+    <div class="w3-third w3-center w3-light-blue w3-text-light-grey w3-border w3-border-light-blue w3-hover-boarder-pink"><a href="transcripts/CSUDH.pdf" target="_blank">CSU Dominguez Hills</a></div>
+    <div class="w3-third w3-center w3-light-blue w3-text-light-grey w3-border w3-border-light-blue w3-hover-boarder-pink"><a href="transcripts/ECC.pdf" target="_blank">El Camino College</a></div>
+    <div class="w3-third w3-center w3-light-blue w3-text-light-grey w3-border w3-border-light-blue w3-hover-boarder-pink"><a href="transcripts/LMU.pdf" target="_blank">Loyola Marymount University</a></div>
+    </p>
+    <h3>Other Interests</h3>
+    <p>
+      <div>
+        I have played music since the age of 4. I enjoy piano, guitar, drums, and electronic music production. I also have a passion for web design, snowboarding, yoyoing, video games, backpacking, hiking, cycling, and fitness. 
+      </div>
+    </p>
+    </div>
+    </div>
+    <div class="">
+      <div class="w3-hover-opacity w3-opacity-min w3-quarter w3-center">
+        <a href="https://localbz.co/hbs/"><img src="images/hbs.jpg" class="w3-round" style="max-height: 15em;"></a>
+      </div>
+      <div class="w3-hover-opacity w3-opacity-min w3-quarter w3-center">
+          <a href="https://spot-pro.com/"><img src="https://spot-pro.com/images/spotPro.jpg" class="w3-round" style="max-height: 15em;"></a>
+      </div>
+      <div class="w3-hover-opacity w3-opacity-min w3-quarter w3-center">
+          <a href="https://centinelaadobe.org/"><img src="images/hscv.jpg" class="w3-round" style="max-height: 15em;"></a>
+      </div>
+      <div class="w3-hover-opacity w3-opacity-min w3-quarter w3-center w3-blue" style="max-height: 15em;">
+        <a href="https://localbz.co/Dreambuilders">
+          <h2>Dreambuilders Toastmasters Club</h2>
+          <p>Torrance, CA</p>
+        </a>
+      </div>
+    </div>
+    <div class="w3-right">
+        <p class="w3-right w3-small">
+            Powered by W3
+        </p>
+    </div>
+  </body>
+  </html>
+

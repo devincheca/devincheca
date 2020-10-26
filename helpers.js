@@ -18,4 +18,13 @@ function toggleArrow(spanId) {
     span.innerHTML = '\\/ ';
   }
 }
-
+function navigateTo(div) {
+  Array.from(div.children)
+  .map((anchor) => { anchor.click(); });
+}
+(function initSamples() {
+  setTimeout(() => {
+    w3.toggleShow('#samples');
+    toggleArrow('samplesSpan');
+  }, 500);
+}())

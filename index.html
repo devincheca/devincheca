@@ -37,6 +37,10 @@
     width: 100%;
     height: 100%;
   }
+  #samples > div:hover {
+    background-color: white;
+    color: black !important;
+  }
   </style>
   </head>
   <body class="bgimg w3-pale-blue" style="max-width:100%; margin: auto;">
@@ -58,18 +62,19 @@
       </a>
     </h3>
     <div class="w3-text-black w3-margin w3-padding" style="font-weight: bold;">Samples:</div>
-    <div class="w3-row">
-      <div class="w3-text-white w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-round w3-large"><a href="https://spot-pro.com" target="_blank">Spot Tracker Progressive Web App with ElasticSearch</a></div>
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/TM" target="_blank">Automated Toastmasters Secretary Minutes Logger</a></div>
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/hbs" target="_blank">Barber Shop website with an Image Gallery and Modals</a></div>
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://todo-manager.com" target="_blank">Todo-Manager with Twilio Login</a></div>
-      <!--
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/videoplayer" target="_blank">Interactive video player made with ReactJS.</a></div>
-      -->
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://face-wrekognizer.name" target="_blank">Open Source Face Recognition System</a></div>
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-col s6 w3-light-blue w3-border w3-large w3-round"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
-    </div>
     <div class="w3-content w3-padding">
+    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#samples'); toggleArrow('samplesSpan');"><h3><span class="w3-opacity-min w3-padding" id="samplesSpan">\/ </span>Samples</h3></div>
+    <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="samples" style="display: none">
+      <div class="w3-text-white w3-opacity-min w3-padding w3-border w3-round w3-large" onclick="navigateTo(this)"><a href="https://spot-pro.com" target="_blank">Spot Tracker Progressive Web App with ElasticSearch</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://face-wrekognizer.name" target="_blank">Open Source Face Recognition System</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/TM" target="_blank">Automated Toastmasters Secretary Minutes Logger</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://todo-manager.com" target="_blank">Todo-Manager with Twilio Login</a></div>
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/hbs" target="_blank">Barber Shop website with an Image Gallery and Modals</a></div>
+      <!--
+      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/videoplayer" target="_blank">Interactive video player made with ReactJS.</a></div>
+      -->
+    </div>
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education'); toggleArrow('educationSpan');"><h3><span class="w3-opacity-min w3-padding" id="educationSpan">\/ </span>Education</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="education" style="display: none">
       <h4>University of Massachusetts Dartmouth; Dartmouth, MA<span class="w3-right">December 2020</span></h4>

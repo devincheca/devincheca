@@ -16,6 +16,17 @@
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <style>
+    .schoolImages {
+      max-height: 2em;
+      position: relative;
+      top: -.25em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .logoImageDiv {
+      display: flex;
+      justify-content: space-between;
+    }
+  * { border-radius: .25em; }
   a { text-decoration: none; }
   a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
@@ -81,7 +92,12 @@
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education'); toggleArrow('educationSpan');"><h3><span class="w3-opacity-min w3-padding" id="educationSpan">\/ </span>Education</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="education" style="display: none">
       <h4>University of Massachusetts Dartmouth<span class="w3-right">December 2020</span></h4>
-      <p>Master of Science, Computer Science</p>
+      <div class="logoImageDiv">
+        <p>Master of Science, Computer Science</p>
+        <p>
+          <img class="schoolImages" src="./images/logos/umassd.png" />
+        </p>
+      </div>
       <h4>California State University Dominguez Hills<span class="w3-right">December 2016</span></h4>
       <p>Bachelor of Science, Mathematics</p>
       <h4>Loyola Marymount University<span class="w3-right">2012-2014</span></h4>

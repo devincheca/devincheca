@@ -35,7 +35,9 @@ function interObserve(func, options) {
     return func();
   }
 }
-(function initScrollObserver() {
+window.onload = () => {
+  /*
+  I'll continue this later
   const spans = {
     'educationSpan': 'education'
   };
@@ -50,4 +52,5 @@ function interObserve(func, options) {
   }, { threshold: 0.5 });
   const edu = document.querySelector('#educationSpan');
   observer.observe(edu);
-}())
+  */
+};

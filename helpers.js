@@ -28,3 +28,29 @@ function navigateTo(div) {
     toggleArrow('samplesSpan');
   }, 500);
 }())
+function interObserve(func, options) {
+  try {
+    return new IntersectionObserver(func, options);
+  } catch(error) {
+    return func();
+  }
+}
+window.onload = () => {
+  /*
+  I'll continue this later
+  const spans = {
+    'educationSpan': 'education'
+  };
+  const observer = interObserve(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = spans[entry.target.id];
+        w3.toggleShow(`#${id}`);
+        toggleArrow(`#${entry.target.id}Span`);
+      }
+    });
+  }, { threshold: 0.5 });
+  const edu = document.querySelector('#educationSpan');
+  observer.observe(edu);
+  */
+};

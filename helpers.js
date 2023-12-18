@@ -24,8 +24,8 @@ function navigateTo(div) {
 }
 (function initSamples() {
   setTimeout(() => {
-    w3.toggleShow('#samples');
-    toggleArrow('samplesSpan');
+    w3.toggleShow('#work');
+    toggleArrow('experienceSpan');
   }, 500);
 }())
 function interObserve(func, options) {

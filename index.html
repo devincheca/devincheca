@@ -17,12 +17,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <style>
     .schoolImages {
-      max-height: 2em;
+      max-height: 1.3em;
       position: relative;
       top: -.25em;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+    .schoolName {
+      font-size: .9em;
+    }
     .logoImageDiv {
+      font-size: .9em;
       display: flex;
       justify-content: space-between;
     }
@@ -91,20 +95,21 @@
     </div>
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#education'); toggleArrow('educationSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="educationSpan">\/ </span>Education</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="education" style="display: none">
-      <h4>University of Massachusetts Dartmouth<span class="w3-right">December 2020</span></h4>
+      <h4 class="schoolName">University of Massachusetts Dartmouth<span class="w3-right">December 2020</span></h4>
       <div class="logoImageDiv">
         <p>Master of Science, Computer Science</p>
         <p>
           <img class="schoolImages" src="./images/logos/umassd.png" />
         </p>
       </div>
-      <h4>California State University Dominguez Hills<span class="w3-right">December 2016</span></h4>
+      <h4 class="schoolName">California State University Dominguez Hills<span class="w3-right">December 2016</span></h4>
       <div class="logoImageDiv">
         <p>Bachelor of Science, Mathematics</p>
         <p>
           <img class="schoolImages" src="./images/logos/csudh.png" />
         </p>
       </div>
+      <!--
       <h4>Loyola Marymount University<span class="w3-right">2012-2014</span></h4>
       <div class="logoImageDiv">
         <p>Bachelor of Science, Economics (in progress)</p>
@@ -112,6 +117,7 @@
           <img class="schoolImages" src="./images/logos/lmu.png" />
         </p>
       </div>
+      -->
     </div>
     <!--
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#overview')"><h3><span class="w3-opacity-min w3-padding">\/ </span>Overview and Qualifications Summary</h3></div>
@@ -241,8 +247,8 @@
       <h4>Toastmasters International; Marina Del Rey, Torrance, Carson, & Los Angeles, CA</h4>
       <p>
       <ul>
-        <li>Currently serving as President for Dreambuilders Toastmasters Club<span class="w3-right">2021 - Present</span></li>
-        <li>Currently serving as Vice President of Public Relations for Dreambuilders Toastmasters Club<span class="w3-right">2018 - Present</span></li>
+        <li>Currently serving as President for Dreambuilders Toastmasters Club<span class="w3-right">2021 - 2023</span></li>
+        <li>Currently serving as Vice President of Public Relations for Dreambuilders Toastmasters Club<span class="w3-right">2018 - 2023</span></li>
         <li>Served as Secretary for Dreambuilders Toastmasters Club (Competent Communicator)<span class="w3-right">2017-2018</span></li>
         <li>Served as Vice President of Education for Toastmasters Club<span class="w3-right">2013-2014</span></li>
         <li>Served as President of Junior Gavel Toastmasters Club<span class="w3-right">2010-2011</span></li>
@@ -270,47 +276,53 @@
     </div>
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#computer'); toggleArrow('computerSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="computerSpan">\/ </span>Computer Skills</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="computer" style="display: none">
-      <p>
-        <div>
-          Highly proficient with JavaScript / nodejs, TypeScript, React, Angular / NativeScript, Vue, SQL, noSQL, and ssh
-        </div>
-        <div>
+      <div>
+        <p>
+          Highly proficient with JavaScript / nodejs, TypeScript, React, Angular / NativeScript, Electron, Vue, SQL (MS SQL Server, Postgres), noSQL, and ssh
+        </p>
+        <p>
           Proficient with C / C++ / C#, AWS, DigitalOcean, nginx, IIS, batch scripting (.sh, .bat), and Elasticsearch
-        </div>
-      </p>
+        </p>
+      </div>
       <h3>Books I Enjoy</h3>
-      <p>
-        <div>
+      <ul>
+        <li>
           Clean Code by Robert C. Martin
-        </div>
-        <div>
+        </li>
+        <li>
           Clean Architecture by Robert C. Martin
-        </div>
-        <div>
+        </li>
+        <li>
           Clean Agile by Robert C. Martin
-        </div>
-        <div>
+        </li>
+        <li>
           Effective C++ by Scott Meyers
-        </div>
-        <div>
+        </li>
+        <li>
           Practical Vim by Drew Neil
-        </div>
-        <div>
+        </li>
+        <li>
           Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
-        </div>
-        <div>
+        </li>
+        <li>
           Designing Data-Intensive Applications by Martin Kleppmann
-        </div>
-        <div>
+        </li>
+        <li>
           Distributed Systems by Andrew S. Tanenbaum & Maarten van Steen
-        </div>
-        <div>
+        </li>
+        <li>
+          Lean Software Development by Mary & Tom Poppendieck
+        </li>
+        <li>
           Don't Make Me Think by Steve Krug
-        </div>
-        <div>
+        </li>
+        <li>
           The Design of Everyday Things by Don Norman
-        </div>
-      </p>
+        </li>
+        <li>
+          Sources of Power by Gary Klein
+        </li>
+      </ul>
     </div>
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#transcripts'); toggleArrow('miscSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="miscSpan">\/ </span>Misc</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="transcripts" style="display: none">
@@ -346,13 +358,13 @@
       <div class="w3-hover-opacity w3-opacity-min w3-third w3-center">
           <a href="https://centinelaadobe.org/"><img src="images/hscv.jpg" class="w3-round" style="max-height: 15em;"></a>
       </div>
-      <div class="w3-hover-opacity w3-opacity-min w3-third w3-center w3-blue" style="padding: 2em; max-height: 15em;">
+      <!-- <div class="w3-hover-opacity w3-opacity-min w3-third w3-center w3-blue" style="padding: 2em; max-height: 15em;">
           <a href="https://ti-manager.com">
             <h3>
               Anonymous Toastmasters Speech Feedback System
             </h3>
           </a>
-      </div>
+      </div> -->
       <!--
       <div class="w3-hover-opacity w3-opacity-min w3-quarter w3-center">
         <a href="https://localbz.co/hbs/"><img src="images/hbs.jpg" class="w3-round" style="max-height: 15em;"></a>

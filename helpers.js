@@ -22,12 +22,6 @@ function navigateTo(div) {
   Array.from(div.children)
   .map((anchor) => { anchor.click(); });
 }
-(function initSamples() {
-  setTimeout(() => {
-    w3.toggleShow('#work');
-    toggleArrow('experienceSpan');
-  }, 500);
-}())
 function interObserve(func, options) {
   try {
     return new IntersectionObserver(func, options);
@@ -36,6 +30,8 @@ function interObserve(func, options) {
   }
 }
 window.onload = () => {
+  w3.toggleShow('#work');
+  toggleArrow('experienceSpan');
   /*
   I'll continue this later
   const spans = {

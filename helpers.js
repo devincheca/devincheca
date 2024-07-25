@@ -32,6 +32,19 @@ function interObserve(func, options) {
 window.onload = () => {
   w3.toggleShow('#work');
   toggleArrow('experienceSpan');
+
+  w3.toggleShow('#education');
+  toggleArrow('educationSpan');
+
+  w3.toggleShow('#leadership');
+  toggleArrow('leadershipSpan');
+
+  w3.toggleShow('#achievements');
+  toggleArrow('achievementSpan');
+
+  w3.toggleShow('#computer');
+  toggleArrow('computerSpan');
+
   /*
   I'll continue this later
   const spans = {

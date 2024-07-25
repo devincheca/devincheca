@@ -56,6 +56,9 @@
     background-color: white;
     color: black !important;
   }
+  #work, #education, #leadership, #achievements, #computer, .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
   </style>
   </head>
   <body class="bgimg w3-pale-blue" style="max-width:100%; margin: auto;">
@@ -80,17 +83,17 @@
     </h3>
     <div class="w3-text-black w3-margin w3-padding" style="font-weight: bold; display: none;">Samples:</div>
     <div class="w3-content w3-padding">
-    <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#samples'); toggleArrow('samplesSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="samplesSpan">\/ </span>Samples</h3></div>
+    <div class="w3-hover-opacity" onclick="w3.toggleShow('#samples'); toggleArrow('samplesSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="samplesSpan">\/ </span>Samples</h3></div>
     <div class="w3-pale-yellow w3-padding w3-animate-opacity" id="samples" style="display: none">
-      <div class="w3-text-white w3-opacity-min w3-padding w3-border w3-round w3-large" onclick="navigateTo(this)"><a href="https://spot-pro.com" target="_blank">Spot Tracker Progressive Web App with ElasticSearch</a></div>
-      <!-- <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://face-wrekognizer.name" target="_blank">Open Source Face Recognition System</a></div> -->
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://ti-manager.com" target="_blank">Toastmasters Anonymous Speech Feedback System</a></div>
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
-      <!-- <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/TM" target="_blank">Automated Toastmasters Secretary Minutes Logger</a></div> -->
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://todo-manager.com" target="_blank">Todo-Manager with Twilio Login</a></div>
-      <!-- <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/hbs" target="_blank">Barber Shop website with an Image Gallery and Modals</a></div> -->
+      <div class="w3-opacity-min w3-padding w3-border w3-round w3-large" onclick="navigateTo(this)"><a href="https://spot-pro.com" target="_blank">Spot Tracker Progressive Web App with ElasticSearch</a></div>
+      <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://face-wrekognizer.name" target="_blank">Serverless ID Face Matching System</a></div>
+      <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://ti-manager.com" target="_blank">Toastmasters Anonymous Speech Feedback System</a></div>
+      <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://centinelaadobe.org" target="_blank">Centinela Adobe House Historic Landmark Website</a></div>
+      <!-- <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/TM" target="_blank">Automated Toastmasters Secretary Minutes Logger</a></div> -->
+      <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://todo-manager.com" target="_blank">Todo-Manager with Twilio Login</a></div>
+      <!-- <div class="w3-hover-opacity w3-opacity-min w3-padding w3-border w3-large w3-round" onclick="navigateTo(this)"><a href="https://localbz.co/hbs" target="_blank">Barber Shop website with an Image Gallery and Modals</a></div> -->
       <!--
-      <div class="w3-text-white w3-hover-opacity w3-opacity-min w3-padding w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/videoplayer" target="_blank">Interactive video player made with ReactJS.</a></div>
+      <div class="w3-hover-opacity w3-opacity-min w3-padding w3-light-blue w3-border w3-large w3-round"><a href="https://localbz.co/videoplayer" target="_blank">Interactive video player made with ReactJS.</a></div>
       -->
     </div>
     <div class="w3-hover-opacity w3-text-white" onclick="w3.toggleShow('#work'); toggleArrow('experienceSpan');"><h3 class="w3-text-black"><span class="w3-opacity-min w3-padding" id="experienceSpan">\/ </span>Work Experience</h3></div>
@@ -355,11 +358,11 @@
           <a href="https://face-wrekognizer.com/"><img src="https://face-wrekognizer.name/img/icons/apple-touch-icon-152x152.png" class="w3-round" style=""></a>
       </div>
       -->
-      <div class="w3-hover-opacity w3-opacity-min w3-third w3-center">
-          <a href="https://spot-pro.com/"><img src="https://spot-pro.com/images/spotPro.jpg" class="w3-round" style="max-height: 15em;"></a>
+      <div class="w3-hover-opacity w3-opacity-min w3-half w3-center">
+          <a href="https://spot-pro.com/"><img src="https://spot-pro.com/images/spotPro.jpg" class="w3-round shadow" style="max-height: 15em;"></a>
       </div>
-      <div class="w3-hover-opacity w3-opacity-min w3-third w3-center">
-          <a href="https://centinelaadobe.org/"><img src="images/hscv.jpg" class="w3-round" style="max-height: 15em;"></a>
+      <div class="w3-hover-opacity w3-opacity-min w3-half w3-center">
+          <a href="https://centinelaadobe.org/"><img src="images/hscv.jpg" class="w3-round shadow" style="max-height: 15em;"></a>
       </div>
       <!-- <div class="w3-hover-opacity w3-opacity-min w3-third w3-center w3-blue" style="padding: 2em; max-height: 15em;">
           <a href="https://ti-manager.com">
@@ -374,11 +377,13 @@
       </div>
       -->
     </div>
+    <!--
     <div class="w3-right">
         <p class="w3-right w3-small">
             Powered by W3
         </p>
     </div>
+      -->
   </body>
   </html>
 
